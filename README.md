@@ -61,6 +61,19 @@ where `path/to/hindi_predictions.json` contains the model's predicted answers as
 
 The MLQA [paper](http://arxiv.org/abs/1910.07475) presents several baselines for zero-shot experiments on MLQA, with training QA data taken from SQuAD V1.1, and using the MLQA English development set for early stopping.
 
+The F1 scores for zero-shot transfer from training with english questions and documents to target language questions and documents are shown below (see the paper for further details). There is lots of room for improvement, and we hope the community will engage in this QA challenge.
+
+
+| Model F1 Score | en | es | de | ar | hi| vi | zh | 
+|:--- |:---: |:---: | :---: |:---: | :---: | :---: | :---: | 
+BERT-Large    | **80.2**| - | - | - |- |- |- |
+Multilingual-BERT  | 77.7| 64.3| 57.9| 45.7| 43.8| 57.1| 57.5|
+XLM    |74.9| **68.0**| **62.2**|**54.8**| 48.8| 61.4| 61.1|
+Translate-test BERT-L    | -| 65.4 | 57.9 | 33.6 | 23.8 | 58.2 |44.2 |
+Translate-train M-BERT    | - | 53.9 | 62.0  | 51.8 | **55.0**| **62.0**| **61.4** |
+Translate-train XLM    | -| 65.2| 61.4| 54.0| 50.7| 59.3| 59.8 |
+
+
 ## Best Practices
 
 MLQA is intended to be an evaluation corpus. Please limit evaluations on the test set to an absolute minimum to prevent overfitting. There is a development dataset split which can be used for running intermediate evaluations during model development.
