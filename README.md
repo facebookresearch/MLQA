@@ -29,7 +29,7 @@ please refer to our paper, [MLQA: Evaluating Cross-lingual Extractive Question A
 
 The data can be downloaded from here: [MLQA_V1.zip](https://dl.fbaipublicfiles.com/MLQA/MLQA_V1.zip)
 
-MLQA is split into development and test splits. The files are formatting using the popular SQuAD format. The files are named with the following convention:
+MLQA is split into development and test splits. The files are formatted using the popular SQuAD format. The files are named with the following convention:
  ```
  {split}-context-{context_language}-question-{question_language}.json
 ```
