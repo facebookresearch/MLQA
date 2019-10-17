@@ -23,7 +23,7 @@ This repository contains both links to download the data, and the official evalu
 <br>
 
 For more details on how the dataset was created, and baseline models testing cross-lingual transfer from English,
-please refer to our paper, [MLQA: Evaluating Cross-lingual Extractive Question Answering]()
+please refer to our paper, [MLQA: Evaluating Cross-lingual Extractive Question Answering](http://arxiv.org/abs/1910.07475)
 
 ## Data download
 
@@ -59,7 +59,7 @@ where `path/to/hindi_predictions.json` contains the model's predicted answers as
 
 ## Baselines
 
-The MLQA [paper]() presents several baselines for zero-shot experiments on MLQA, with training QA data taken from SQuAD V1.1, and using the MLQA English development set for early stopping.
+The MLQA [paper](http://arxiv.org/abs/1910.07475) presents several baselines for zero-shot experiments on MLQA, with training QA data taken from SQuAD V1.1, and using the MLQA English development set for early stopping.
 
 ## Best Practices
 
@@ -80,14 +80,14 @@ As mentioned in the paper, some instances that cannot be answered are generated 
 Please cite [[1]](https://arxiv.org/abs/1901.07291) if you found the resources in this repository useful.
 
 
-[1] P Lewis, B Oğuz, R. Rinot, S. Riedel and H. Schwenk [*MLQA: Evaluating Cross-lingual Extractive Question Answering*]()
+[1] P Lewis, B Oğuz, R. Rinot, S. Riedel and H. Schwenk [*MLQA: Evaluating Cross-lingual Extractive Question Answering*](http://arxiv.org/abs/1910.07475)
 
 
 ```
 @article{lewis2019mlqa,
   title={MLQA: Evaluating Cross-lingual Extractive Question Answering},
   author={Lewis, Patrick and O\u{g}uz, Barlas and Rinott, Ruty and Riedel, Sebastian and Schwenk, Holger},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:1910.07475},
   year={2019}
 }
 ```
